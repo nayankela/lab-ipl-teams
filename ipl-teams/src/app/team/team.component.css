@@ -1,0 +1,32 @@
+header {
+  margin: 20px;
+  padding: 10px;
+}
+
+.container {
+  margin: 10px 80px;
+  padding: 2px;
+}
+
+h1 {
+  background: orangered;
+  color: white;
+  align-items: center;
+  padding: 8px;
+  padding-left: 40%;
+}
+
+ul li {
+  list-style: none;
+  padding: 1px;
+  margin: 20px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

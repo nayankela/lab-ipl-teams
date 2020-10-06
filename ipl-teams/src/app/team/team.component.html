@@ -1,0 +1,23 @@
+<header>
+  <h1>IPL TEAM</h1>
+</header>
+<div class="container">
+  <ul>
+    <div class="flex-container">
+      <li *ngFor="let team of teams">
+
+        <ul>
+
+          <li>
+            <h4>{{team.name}} </h4>
+          </li>
+          <li>{{team.website}} </li>
+          <li>{{team.phoneno}} </li>
+          <li> <img src={{team.image}} height="300px" width="280px"> </li>
+
+        </ul>
+
+      </li>
+    </div>
+  </ul>
+</div>
